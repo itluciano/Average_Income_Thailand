@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html lang="th">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Revenued Survey Analysis</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet" type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency-th.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+	  <!--header icon -->
+	  <link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <!-- .hvr-grow bug fixing line --> <b class="hvr-grow"></b>
+        <a class="navbar-brand js-scroll-trigger hvr-grow" href="#page-top">Revenue Survey</a>
+        <!-- narrow browser title bug fixing line --> <b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b>
+        <button class="navbar-toggler navbar-toggler-right hvr-grow" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <!-- .hvr-grow bug fixing line --> <b class="hvr-grow"></b>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#overview">ภาพรวม</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#publishers">Presentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#summary">สรุป</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#tools">เครื่องมือ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#team">สมาชิก</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">ยินดีต้อนรับสู่เว็บไซต์โครงงานวิเคราะห์ข้อมูลของพวกเรา</div>
+          <div class="intro-heading text-uppercase">Revenued Survey Analysis</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger hvr-grow" href="#overview">ไปดูกันเถอะ!</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Overview -->
+    <section id="overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">ภาพรวม</h2>
+            <h3 class="section-subheading text-muted">รายได้เฉลี่ยต่อครัวเรือน ตั้งแต่ปี 2555 ถึงปี 2558 มาดูกันว่า
+			  รายได้เฉลี่ยของครัวเรือนที่มีรายได้เฉลี่ยน้อยกว่า 30,000 จะมีมากน้อยเพียงใด!</h3>
+          </div>
+        </div>
+        <!-- Chart Carousel -->
+        <div class="container">
+          <div id="carousel_overview" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel_overview" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel_overview" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Chart #1 -->
+              <div class="carousel-item active">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_per_year.svg"/>
+                </figure>
+              </div>
+              <!-- Chart #2 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_per_region.svg" />
+                </figure>
+              </div>
+            </div>
+            <div class="carousel-control-prev">
+              <a href="#carousel_overview" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="carousel-control-next">
+              <a href="#carousel_overview" role="button" data-slide="next">
+                <span class="carousel-control-next-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <p style="text-indent: 2.5em;">จากกราฟ จะเห็นได้ว่าจำนวนคนต่อครัวเรือนที่มีรายได้ต่ำกว่า 30,000 บาท
+ตั้งแต่ปี 2555 ถึง ปี 2558 จะพบว่า ปี 2555 มีประชากรที่มีรายได้ต่ำกว่า 30,000 บาท
+นั้นมีมากกว่าในปีอื่น ๆ เนื่องมาจากในปี 2554 เกิดท่วม ทำให้ส่งผลกระทบต่อเศรษฐกิจในปี
+พ.ศ. 2555 เนื่องจากสินค้าจ่อราคาขึ้น ทำให้ประชาชนจับจ่ายใช้สอยในราคาของสินค้าที่แพงขึ้น
+ในส่วนของการผลิตทั้งภาคการเกษตร อุตสาหกรรม โดยเฉพาะอุตสาหกรรมการผลิตในเขตนิคมอุตสาหกรรมในจังหวัดพระนครศรีอยุธยาและปทุมธานี ซึ่งเป็นแหล่งผลิตของอุตสาหกรรมยานยนต์
+และอิเล็กทรอนิกส์ นิคมอุตสาหกรรมที่เสียหายเป็นส่วนที่ผลิตชิ้นส่วนและวัตถุดิบต้นน้ำ จึงส่งผลกระทบต่อห่วงโซ่ของการผลิตของอุตสาหกรรมในจังหวัดอื่น ๆ ทำให้เกิดการขาดแคลนชิ้นส่วน และวัตถุดิบในการผลิต
+และอาจจะส่งผลกระทบต่อพนักงาน หรือผู้มีรายได้น้อยที่ทำงานในนิคมอุตสาหกรรม เนื่องจากมีการปลดพนักงาน
+ออกเนื่องมาจาก การผลิตที่เสียหาย หรือขาดทุนมากเพราะมีส่วนที่เสียหายมาก จึงต้องทำการปลดพนักงานออก
+เพื่อไม่ให้ใช้เงินมากจนเกินไป เนื่องมาจากผลกระทบของน้ำท่วม เมื่อปีพ.ศ. 2554</p>
+          <p style="text-indent: 2.5em;">จากกราฟ จะเห็นได้ว่าจำนวนคนต่อครัวเรือนที่มีรายได้ต่ำกว่า 30,000 บาท โดยการแบ่งตามภาค ตั้งแต่ปี 2555 ถึง 2558 จะพบว่าภาคตะวันออกเฉียงเหนือ ในปี 2555 ประชากรที่มีรายได้ต่ำกว่า 30,000 บาท นั้นมีมากที่สุดกว่าปีอื่น ๆ เนื่องจากผลกระทบส่วนใหญ่มาจากน้ำท่วม เมื่อปี 2554 เพราะคนในพื้นที่ส่วนใหญ่
+			  จะประกอบอาชีพทางการเกษตรเป็นจำนวนมาก อาทิเช่น การทำนา,เพาะปลูกมันสำปะหลัง หรือพืชชนิดต่าง ๆ ที่สามารถให้ผลผลิตได้
+			และในปี 2555 ก็ส่งผลกระทบให้คนที่ประกอบอาชีพเกษตรกรรมมีรายได้น้อยลง เนื่องมาจากพืชที่เพาะปลูกในพื้นที่เสียหาย
+			โดยเฉพาะข้าวที่เพาะปลูกในแปลงนาโดนน้ำท่วมขังเป็นจำนวนมาก จึงทำให้ไม่สามารถนำผลผลิตไปขายได้</p>
+        </div>
+      </div>
+    </section>
+	  
+	       <!-- low income -->
+    <section id="growth">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">จำนวนคนที่มีรายได้ต่ำกว่า 30,000 บาท โดยการแบ่งตามภาค</h2>
+            <h3 class="section-subheading text-muted">ต่อมาก็มาดูกันว่าจำนวนคนที่รายได้ต่ำกว่า 30,000 บาท ทั้งหมด โดยแบ่งตามภาค จะมีมากหรือน้อยเพียงใด!</h3>
+          </div>
+        </div>
+        <div class="container">
+          <center>
+            <figure>
+              <embed type="image/svg+xml" src="chart/graph_total_people_lowincome_each_years.svg" />
+            </figure>
+          </center>
+        </div>
+        <div class="modal-body">
+          <p style="text-indent: 2.5em;">เริ่มต้นในยุค 80s เราจะเห็นว่าเกมส่วนมากนั้นเป็นเกมคอนโซลภายในบ้าน เมื่อเวลาผ่านไป เกมคอนโซลแบบใช้มือถือและเกมคอมพิวเตอร์เริ่มมีบทบาทมากขึ้น หนึ่งในสาเหตุนั้นอาจเป็นเพราะความล้าหลังของเทคโนโลยี โดยในช่วงยุค 80s และ 90s นั้นมันไม่ง่ายเลยที่จะออกแบบและสร้างเครื่องเล่นเกมขนาดเล็ก รวมถึงคอมพิวเตอร์สมัยนั้นไม่ได้ถูกออกแบบมาสำหรับการเล่นเกม จนกระทั่งปี 2000 เทคโนโลยีนั้นมีความก้าวหน้าขึ้นจากเมื่อก่อนมากพอสมควร จำนวนของวีดีโอเกมเลยเพิ่มขึ้นอย่างก้าวกระโดดจนถึงทุกวันนี้</p>
+          <p style="text-indent: 2.5em;">ดังนั้นจึงสรุปได้ว่า เทคโนโลยีนั้นมีความสำคัญมาก และเป็นสิ่งที่ขับเคลื่อนให้โลกก้าวหน้าได้ อย่างกราฟข้างต้นแสดงให้เห็นว่า วงการเกมเติบโตได้มากถึงระดับนี้ ซึ่งมาจากเทคโนโลยีที่ก้าวหน้านั่นเอง</p>
+        </div>
+      </div>
+    </section>
+	  
+	  <!-- each people -->
+    <section id="growth">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">จำนวนประชากรทั้งหมดในแต่ละภาค</h2>
+            <h3 class="section-subheading text-muted">ต่อมาก็มาดูกันว่าจำนวนคนทั้งหมดในแต่ละปี มีจำนวนคนเพิ่ม หรือลดมากน้อยเพียงใด!</h3>
+          </div>
+        </div>
+        <div class="container">
+          <center>
+            <figure>
+              <embed type="image/svg+xml" src="chart/graph_total_people_each_years.svg" />
+            </figure>
+          </center>
+        </div>
+        <div class="modal-body">
+          <p style="text-indent: 2.5em;">เริ่มต้นในยุค 80s เราจะเห็นว่าเกมส่วนมากนั้นเป็นเกมคอนโซลภายในบ้าน เมื่อเวลาผ่านไป เกมคอนโซลแบบใช้มือถือและเกมคอมพิวเตอร์เริ่มมีบทบาทมากขึ้น หนึ่งในสาเหตุนั้นอาจเป็นเพราะความล้าหลังของเทคโนโลยี โดยในช่วงยุค 80s และ 90s นั้นมันไม่ง่ายเลยที่จะออกแบบและสร้างเครื่องเล่นเกมขนาดเล็ก รวมถึงคอมพิวเตอร์สมัยนั้นไม่ได้ถูกออกแบบมาสำหรับการเล่นเกม จนกระทั่งปี 2000 เทคโนโลยีนั้นมีความก้าวหน้าขึ้นจากเมื่อก่อนมากพอสมควร จำนวนของวีดีโอเกมเลยเพิ่มขึ้นอย่างก้าวกระโดดจนถึงทุกวันนี้</p>
+          <p style="text-indent: 2.5em;">ดังนั้นจึงสรุปได้ว่า เทคโนโลยีนั้นมีความสำคัญมาก และเป็นสิ่งที่ขับเคลื่อนให้โลกก้าวหน้าได้ อย่างกราฟข้างต้นแสดงให้เห็นว่า วงการเกมเติบโตได้มากถึงระดับนี้ ซึ่งมาจากเทคโนโลยีที่ก้าวหน้านั่นเอง</p>
+        </div>
+      </div>
+    </section>
+		
+    <!-- 2557 - 2558 -->
+    <section id="sales" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">รายได้ของคนต่อครัวเรือนที่มีรายได้น้อยกว่า 30,000 บาท</h2>
+            <h3 class="section-subheading text-muted">ที่นี่เรามาดูข้อมูลที่ละเอียดลึกลงมากัน ตอนนี้จะสามารถดูได้ว่าในแต่ละปีว่าคนต่อครัวเรือนที่มีรายได้น้อยกว่า 30,000 บาท ตั้งแต่ปี 2555 จนถึงปี 2558</h3>
+          </div>
+        </div>
+        <!-- Chart Years 2555 - 2558 -->
+        <div class="container">
+          <div id="carousel_sales" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel_sales" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel_sales" data-slide-to="1"></li>
+              <li data-target="#carousel_sales" data-slide-to="2"></li>
+				<li data-target="#carousel_sales" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Chart #1 -->
+              <div class="carousel-item active">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_percen55.svg"/>
+                </figure>
+              </div>
+			<!-- Chart #2 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_percen56.svg" />
+                </figure>
+              </div>
+              <!-- Chart #3 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_percen57.svg" />
+                </figure>
+              </div>
+              <!-- Chart #4 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_percen58.svg" />
+                </figure>
+              </div>
+            </div>
+            <div class="carousel-control-prev" >
+              <a href="#carousel_sales" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="carousel-control-next">
+              <a href="#carousel_sales" role="button" data-slide="next">
+                <span class="carousel-control-next-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <p style="text-indent: 2.5em;">จากกราฟจะสังเกตได้ว่ามีการขึ้นลงหลายครั้ง ซึ่งกราฟนี้ค่อนข้างเกี่ยวพันกับจำนวนการออกของเกม อย่างไรก็ตาม ลองมาเจาะลึกเหตุการณ์บางเหตุการณ์กันว่าทำไมยอดขายถึงขึ้นสูงในปีนั้น ๆ</p>
+          <ul>
+            <li>ในปี 1984 มีเกม <b>Duck Hunt</b> มียอดขาย 28.31 ล้านครั้ง <i>(คิดเป็น 56.22% ของปีนั้น)</i></li>
+            <li>ในปี 1985 มีเกม <b>Super Mario Bros.</b> ยอดขาย 40.24 ล้านครั้ง <i>(คิดเป็น 74.6% ของปีนั้น)</i></li>
+            <li>ในปี 1989 มีเกม <b>Tetris</b> ยอดขาย 30.26 ล้านครั้ง และเกม <b>Super Mario Land</b> ยอดขาย 18.14 ล้านครั้ง <i>(รวมยอดขายทั้งสองเกมคิดเป็น 65.89% ของปีนั้น)</i></li>
+            <li>ในปี 1995 ก็ได้มีการจัดงาน E3 หรือ <b>Electronic Entertainment Expo</b> ขึ้นเป็นครั้งแรก ทำให้ช่วงหลังจากนั้นที่มีการจัดงาน E3 อย่างต่อเนื่อง ยอดขายของเกมสูงขึ้น เนื่องจากงาน E3 เป็นงานที่แต่ละค่ายเกมจะนำเกมที่ตัวเองกำลังพัฒนามาโชว์ เพื่อให้คนเกิดความสนใจ</li>
+            <li>ในช่วงเดือนตุลาคม ปี 2000, Sony ได้ออกคอนโซลใหม่ในชื่อ <b>PlayStation 2</b> ซึ่งทำให้ยอดขายเกมในปี 2001-2002 สูงขึ้นระดับหนึ่ง</li>
+            <li>เดือนพฤศจิกายน ปี 2004 มีการวางจำหน่าย <b>Nintendo DS</b> ; เดือนพฤศจิกายน ปี 2005 มีการวางจำหน่าย <b>Wii</b> และ <b>XBox360</b> ; เดือนพฤศจิกายน ปี 2006 มีการวางจำหน่าย <b>PlayStation 3</b> การวางจำหน่าย console ใหม่ทั้ง 4 อย่างนี้ทำให้ยอดขายเกมในช่วง 2004 to 2008 ได้สูงขึ้นอย่างมาก</li>
+          </ul>
+          <p style="text-indent: 2.5em;">ดังนั้นจึงสรุปได้ว่า ช่วงที่ยอดขายเกมพุ่งสูงจะอยู่ประมาณ 1-3 ปี แล้วจึงตกลงมา เนื่องจากค่ายคอนโซลประกาศเปิดตัวเครื่องคอนโซลใหม่ ทำให้ยอดขายเครื่องเกมรุ่นก่อนตกลงมา และเมื่อมีเครื่องคอนโซลใหม่ออกมา ยอดขายของเกมจะยังไม่ขึ้นสูงทันทีเนื่องจากค่ายเกมต้องศึกษาแพลตฟอร์มนั้น ๆ ก่อน ก่อนที่จะพัฒนาเกมออกมาในช่วง 1-2 ปีหลังจากนั้น และหากเราสามารถผลิตเกมที่ตรงกับความชอบของผู้คนในช่วงนั้น ๆ ได้อย่างพอดิบพอดี เกมนั้น ๆ ก็มีโอกาสที่จะทำยอดขายได้สูงจนไม่น่าเชื่อ</p>
+        </div>
+      </div>
+    </section>
+    <!-- Top Publishers -->
+    <section id="publishers">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Presentation</h2>
+            <h3 class="section-subheading text-muted">หลังจากที่เราได้นำข้อมูลมาวิเคราะห์แล้วนั้น เราจะลองมาอธิบายให้ฟังว่าเกิดอะไรขึ้นบ้าง!</h3>
+          </div>
+        </div>
+        <div class="modal-body">
+
+        </div>
+      </div>
+    </section>
+
+        <!-- Summary -->
+    <section id="summary" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">สรุป</h2>
+            <h3 class="section-subheading text-muted">จากบทความข้างต้นทั้งหมด เราได้อะไรมาบ้าง?</h3>
+          </div>
+        </div>
+
+        <div class="modal-body">
+          <h5>เราได้รู้อะไรเพิ่มขึ้นมาบ้าง?</h5>
+          <p><ul>
+            <li>จากหัวข้อ<a href="#releases">การวางจำหน่าย</a> เราได้รู้ว่ามีปัจจัยภายนอกมากมายที่ส่งผลต่อจำนวนการวางจำหน่ายของเกม ปัจจัยที่มีผลมากที่สุดคือการวางจำหน่ายของแพลตฟอร์มใหม่ และอิทธิพลทางเทคโนโลยี</li>
+            <li>จากหัวข้อ<a href="#growth">การเติบโต</a> เราได้รู้ถึงความสำคัญของเทคโนโลยี ซึ่งเป็นสิ่งที่ทำให้วงการเกมเติบโตได้มากระดับนี้</li>
+            <li>จากหัวข้อ<a href="#sales">ยอดขาย</a> เราได้รู้ว่ายอดขายของเกมในแต่ละปีนั้นสัมพันธ์กับจำนวนการวางจำหน่าย และยังพบว่า หากเราผลิตเกมที่ตรงกับความชอบของผู้คนในช่วงนั้น ๆ ได้อย่างพอดิบพอดี เกมนั้น ๆ ก็มีโอกาสที่จะทำยอดขายได้สูงจนไม่น่าเชื่อ</li>
+            <li>จากหัวข้อ<a href="#publishers">บริษัทพัฒนาเกม</a> เราได้รู้ว่าทำไมบริษัทพัฒนาเกม 16 อันดับแรกถึงสามารถครองตลาดได้ถึง 81.75% ในขณะที่อีก 562 บริษัทนั้นครองตลาดเพียง 18.25% เท่านั้น เหตุผลก็คือพวกเขามีจุดแข็งหรือจุดเด่นที่แตกต่างกัน</li>
+            <li>พวกเราได้พบว่า เราอาจแบ่งยุคของวงการเกมได้ดังนี้
+              <ul>
+                <li><b>1980-1994</b> - ในยุคนี้ เกมยังไม่เป็นที่โด่งดังมาก เทคโนโลยีก็ยังไม่ก้าวหน้ามาก ดังนั้นจำนวนเกมเลยมีน้อย จำนวนแพลตฟอร์มก็มีน้อย</li>
+                <li><b>1995-2009</b> - ในยุคนี้ เกมนั้นโด่งดังมากถึงมากที่สุด แพลตฟอร์มใหม่ ๆ ได้มีการวางจำหน่ายมากมาย ตามไปด้วยเกมจำนวนมากให้เราได้เลือกเล่น</li>
+                <li><b>2009-ปัจจุบัน</b> - ในยุคนี้ สมาร์ตโฟนและเทคโนโลยีสมัยใหม่ได้มีบทบาทในชีวิตประจำวันเรามากขึ้น บริษัทพัฒนาเกมก็เริ่มที่จะเลือกนำเกมวางจำหน่ายบนแพลตฟอร์มสมาร์ตโฟนแทน แพลตฟอร์มใหม่ก็ได้มีการเกิดขึ้น ยกตัวอย่างเช่น ไฮบริด <i>(เช่น Nintendo Switch)</i> หรือ ความเป็นจริงเสมือน <i>(VR)</i></li>
+              </ul>
+            </li>
+          </ul></p><br>
+          <h5>เราจะนำมาปรับใช้กับชีวิตของเราอย่างไรได้บ้าง?</h5>
+          <p><ul>
+            <li>ถ้าคุณอยากจะเป็นนักพัฒนาเกม นักออกแบบเกม หรืออะไรก็ตามที่เกี่ยวกับเกม เราได้รู้แล้วว่ามีปัจจัยอะไรบ้างที่ส่งผลต่อยอดขาย ดังนั้นเราควรวางแผนอย่างรอบคอบก่อนที่จะเริ่มพัฒนาเกม ด้วยคำถามเหล่านี้
+              <ul>
+                <li>เราควรทำเกมประเภทอะไร?</li>
+                <li>เราควรทำเกมบนแพลตฟอร์มอะไร?</li>
+                <li>เราควรวางจำหน่ายเกมในช่วงไหน?</li>
+                <li>จุดขายหรือจุดเด่นของเกมคืออะไร?</li>
+              </ul></li>
+            <li>เราได้รู้ว่ามันสำคัญมากที่จะเรียนรู้เกี่ยวกับเทคโนโลยีใหม่ ๆ ยิ่งรู้ยิ่งมีโอกาสที่จะประสบความสำเร็จในวงการนี้ เช่น ติดตามข่าวเทคโนโลยี หรือติดตามข่าวการเปิดตัวแพลตฟอร์มใหม่</li>
+            <li>จากหัวข้อ<a href="#publishers">ผู้พัฒนาเกม</a> เราได้รู้เกี่ยวกับกุญแจสู่ความสำเร็จ เป็นสิ่งที่สำคัญมากที่บริษัทพัฒนาเกมทุกบริษัทจะต้องมีจุดแข็งหรือจุดเด่นของตนเอง ซึ่งก็เหมือนกับคนเรา ถ้าคุณสามารถเชี่ยวชาญบางสิ่งได้ คุณก็มีโอกาสสูงที่จะประสบความสำเร็จใจด้านนั้น จากในกราฟจะเห็นว่าทุกบริษัทนั้นมีตั้งแต่เกมที่ไม่ประสบความสำเร็จเลย จนถึงประสบความสำเร็จเป็นอย่างมาก นี่เป็นสิ่งที่บอกว่าไม่มีใครสำเร็จไปสักทุกครั้งที่ลงมือทำอะไรบางอย่าง การไม่ยอมแพ้จึงเป็นหนึ่งในกุญแจสู่ความสำเร็จ</li>
+          </ul></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section id="tools">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">เครื่องมือ</h2>
+            <h3 class="section-subheading text-muted">สิ่งที่พวกเราใช้ในการทำให้โครงงานนี้เสร็จสมบูรณ์</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="https://github.com" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">GitHub</h4>
+            <p class="text-muted">สำหรับทำโครงงานกันเป็นกลุ่ม</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="https://pages.github.com" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-file-code-o fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">GitHub Pages</h4>
+            <p class="text-muted">สำหรับสร้างเว็บไซต์โครงงาน เว็บไซต์นี้นั่นเอง</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="https://www.python.org" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">Python</h4>
+            <p class="text-muted">ภาษาโปรแกรมมิงที่ใช้ในโครงงานนี้เป็นหลัก</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="http://www.numpy.org" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-superscript fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">Numpy</h4>
+            <p class="text-muted">หนึ่งใน library ภายนอกของภาษา python ใช้ในการจัดการข้อมูล array</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="https://pandas.pydata.org" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-table fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">Pandas</h4>
+            <p class="text-muted">หนึ่งใน library ภายนอกของภาษา python ใช้ในการวิเคราะห์และจัดการข้อมูล</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="http://pygal.org/en/stable" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">Pygal</h4>
+            <p class="text-muted">หนึ่งใน library ภายนอกของภาษา python ใช้ในการสร้างกราฟ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">สมาชิก</h2>
+            <h3 class="section-subheading text-muted">เป็นทีมที่แจ่มแมวมาก</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/profile/tawan.png" alt="">
+              <h4>นายภูตะวัน เนาวรัตน์พนมมาศ</h4>
+              <p class="text-muted">ตะวัน</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://github.com/PhutawanITF61" target='_blank' class="hvr-grow">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/profile/tom.png" alt="">
+              <h4>นายเตชินท์ โค้วประเสริฐ </h4>
+              <p class="text-muted">ต้อม</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://github.com/POKINBKK" target='_blank' class="hvr-grow">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/profile/fluke.png" alt="">
+              <h4>นายภาคภูมิ พงศ์สุข</h4>
+              <p class="text-muted">ฟลุ๊ค</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://github.com/h2oprince1" target='_blank' class="hvr-grow">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/profile/jack.png" alt="">
+              <h4>นายณรงค์ฤทธิ์ ทองดี</h4>
+              <p class="text-muted">แจ็ค</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://github.com/itluciano" target='_blank' class="hvr-grow">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">โครงงานนี้เป็นส่วนหนึ่งของวิชา 06016314 Problem Solving in Information Technology (PSIT) 
+				<br>
+				คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (สจล.)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <p>ขอบคุณเทมเพลตจาก
+                  <a href="https://startbootstrap.com/template-overviews/agency/" target='_blank'>Start Bootstrap</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/h2oprince1/ProjectPsit/blob/master/README.md" target='_blank' class="hvr-grow">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <p>ขอบคุณฐานข้อมูลจาก <a href="https://data.go.th/DatasetDetail.aspx?id=0d929453-42e0-4c8c-bac2-5a73e53fde65" target='_blank'>DGAThailand</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
+</html>
